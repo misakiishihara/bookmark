@@ -5,7 +5,8 @@ module.exports = {
   },
   extends: [
     'plugin:react/recommended',
-    'standard'
+    'standard',
+    'prettier',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -20,5 +21,10 @@ module.exports = {
     '@typescript-eslint'
   ],
   rules: {
+  },
+  settings: {
+    react: {
+      version: '18.1.0'
+    }
   }
 }

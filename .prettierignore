@@ -1,0 +1,9 @@
+# prettierのフォーマットを適用しないファイルを指定
+# [.eslintignore]と同様
+
+.next
+next-env.d.ts
+node_modules
+yarn.lock
+package-lock.json
+public
